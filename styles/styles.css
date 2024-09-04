@@ -1,15 +1,51 @@
-body{
-    background-color: bisque;
+*{
+    font-family: sans-serif;
 }
-.recipe-links{
+.header {
+    padding: 100px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+.navbar a{
+    color: white;
+    padding: 20px 10px;
+    text-align: none;
+    text-decoration: none;
+
+}
+.navbar{
+    background-color: black;
+    display: flex;
+
+}
+.navbar a:hover{
+    background-color: white;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
 }
-.heading{
-    color: chocolate;
+h1{
+    text-align: center;
+    padding: 10px;
 }
-.gen-image{
-    height: 400px;
-    width: auto;
+.dishes{
+    /* background-color: black; */
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.dishes a{
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    padding-top: 50px;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: black;
+}
+.dishes a:hover{
+    background-color: tomato;
+
 }
